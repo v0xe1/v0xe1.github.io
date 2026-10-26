@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: v0xe1 # the main title
 
-tagline: Vulnerability Research · Fuzzing · Windows # it will display as the subtitle
+tagline: Vulnerability Research · Reversing · Code Audit # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  v0xe1(배준서)의 취약점 연구 블로그. 퍼징, 리버싱, Windows·브라우저 0-day 분석과 CVE write-up을 기록합니다.
+  v0xe1(배준서)의 취약점 연구 블로그. 리버싱과 코드 오디팅으로 취약점을 분석하고, 공부한 내용을 기록합니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
