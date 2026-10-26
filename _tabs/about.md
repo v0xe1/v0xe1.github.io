@@ -37,7 +37,9 @@ WinAFL persistent mode와 커버리지 분석으로 반디뷰가 직접 구현�
 오픈소스 대상으로는 ASan 퍼징과 크래시 자동 분류 환경을 구축했습니다.
 팀원 모두가 하네스 설계·개선과 크래시 분석을 함께 진행했습니다. (제보 12건, 승인 4건)
 
-- **반디뷰** (반디소프트, Windows 이미지 뷰어) — PSD 파일 검증 미흡 → **버퍼 오버플로우**, PSD·JXR 파일 검증 미흡 → DoS (3건) <!-- TODO: KISA 신고 / KVE 번호 -->
+- **반디뷰** (반디소프트, Windows 이미지 뷰어) — [v7.06 릴리스 노트](https://kr.bandisoft.com/bandiview/history/)에서 수정
+  - PSD 파일 검증 미흡 → **버퍼 오버플로우**, PSD·JXR 파일 검증 미흡 → DoS (3건) · 반디소프트에 직접 제보, 릴리스 노트 크레딧
+  - EXR 포맷 취약점 · KISA 제보 · **KVE-2024-0416**
 - **pdfio** (PDF C 라이브러리) — [**CVE-2024-42358**](https://github.com/michaelrsweet/pdfio/security/advisories/GHSA-4hh9-j68x-8353) `Moderate` · TTF 파서 `read_cmap`의 nGroups 검증 미흡 → 무한 루프·메모리 고갈과 **힙 버퍼 오버플로우** (추가 버그 2건 패치)
 
 **ApplePIE** · KITRI Best of the Best 11기 (2022 ~ 2023, 6인)
