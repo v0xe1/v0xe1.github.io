@@ -24,7 +24,7 @@ title: About
 
 | 연도 | 대상 | 취약점 / 영향 |
 |:---:|---|---|
-| 2026 | **Windows** | 로컬 권한 상승 (EoP)<br>MSRC 제보, 검토 중 · 세부 내용은 패치 후 공개 |
+| 2026 | **Windows** | 로컬 권한 상승 (EoP)<br>MSRC 제보, 검토 중 |
 | 2026 | **pjproject**<br>SIP·미디어 C 라이브러리 | [**CVE-2026-40614**](https://github.com/pjsip/pjproject/security/advisories/GHSA-j59p-4xrr-fp8g) `High`<br>Opus 코덱 디코딩 경로의 버퍼 크기 검증 미흡 → 조작된 수신 오디오 패킷으로 **힙 버퍼 오버플로우** (CWE-122) <!-- TODO: 발견 방법 --> |
 | 2025 | **Nextcloud Desktop**<br>동기화 클라이언트 | [**CVE-2025-47792**](https://github.com/nextcloud/security-advisories/security/advisories/GHSA-qm2f-959g-7p65) `Moderate`<br>소켓 API 접근 통제 미흡 → 같은 PC의 다른 프로그램이 사용자 데이터의 **공유 링크를 임의로 생성** (CWE-284)<br>HackerOne 버그바운티 · 직접 타겟을 선정하고 리버싱으로 발견 |
 
@@ -61,7 +61,6 @@ WinAFL persistent mode와 커버리지 분석으로 반디뷰가 직접 구현�
 
 | 기간 | 내용 |
 |---|---|
-| 2025 | **Hackyboiz** 팀 활동 — 취약점 연구 블로그·뉴스레터 팀 <!-- TODO: 정확한 활동 기간, 작성 글 링크 --> |
 | 2025 | **HSPACE Knights Frontier** — CodeQL, Web3(Ethernaut), BoB 연구 프로젝트 분석 등 미션 수행 |
 | 2024.07 ~ 2024.08 | **파인더갭 HuntingMaster 1기** — 팀 프로젝트 "CVE 원정대" (3인) |
 | 2022.06 ~ 2023.03 | **KITRI Best of the Best 11기** 수료 — 보안컨설팅 트랙 · 팀 프로젝트 ApplePIE |
