@@ -6,5 +6,5 @@ categories:
 tags: []
 description: ""
 ---
-![](KakaoTalk_20260914_223655.jpg)
+![](assets/img/posts/Pasted%20image%2020261027015316.png)
 이미지 테스트.
